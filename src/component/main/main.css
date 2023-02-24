@@ -1,0 +1,403 @@
+.main{
+    display: flex;
+    width:100%;
+    height: 100vh;
+  
+}
+.left{
+    width: 15%;
+    border: 2px solid red;
+    flex-direction: column;
+    background-color: rgb(21, 4, 4);
+}
+.Right{
+    width:85%;
+    border:2px solid blue;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+}
+.name1{
+    display: flex;
+    justify-content: center;
+    color:white;
+    font-size: 2rem;
+    margin-top: 1rem;
+   
+}
+.name2{
+    display: flex;
+    justify-content: center;
+    color:white;
+    font-size: 0.7rem;
+   
+
+}
+.name3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+     border:2px solid red;
+     padding:1.3rem 1.3rem 1.3rem 1.3rem;
+     font-size: 1rem;
+    border-radius: 9px;
+   
+}
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white
+}
+.navBar{
+   
+    display: flex;
+    justify-content: flex-start;
+}
+h3{
+    display: flex;
+    justify-content: flex-start !important;
+    margin-left: 1.5rem;
+    margin-top: 1.9rem;
+}
+input{
+ width:55rem;
+ margin-top: 0.8rem;
+ padding: 0.6rem;
+ margin-left: 1rem;
+ font-size: 1.2rem;
+ text-align: 2rem;
+ /* border: none; */
+ background-color:gray;
+ color:white;;
+}
+input::placeholder{
+    color:white;
+    opacity: 1;
+}
+
+.btn1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:1.2rem;
+    height:1rem;
+    margin-top: 0.8rem;
+    margin-left: 0.2rem;
+    background-color: rgb(16, 225, 177);
+    color:white;
+    border-radius: 5px;
+    padding: 1.3rem;
+}
+.btn2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:1.2rem;
+    height:1rem;
+    margin-top: 0.8rem;
+    margin-left: 0.2rem;
+    background-color: rgb(57, 47, 47);
+    color: white;
+    border-radius: 5px;
+    padding: 1.3rem;
+    
+}
+.text{
+    color:white;
+    width:50%;
+    /* border: 2px solid red; */
+    display: flex;
+    font-size: 1.5rem;
+   
+    flex-direction: row;
+    
+   height: 96%;
+   
+}
+.righttext{
+    width:50%;
+    /* border: 2px solid rgb(37, 179, 25); */
+    height: 100%;
+}
+.maindiv{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 98vh;
+    
+}
+.pen{
+    display: flex;
+   justify-content: start;
+   align-items: flex-start;
+   margin-top: 2rem;
+   margin-left: 2rem;
+   margin-top: 5rem;
+}
+.texth1{
+    font-size: 1.3rem;
+    margin-top: 2.5rem;
+    margin-left: 1rem;
+}
+.ptag{
+    display: flex;
+   justify-content: start;
+   align-items: flex-start;
+   margin-top: 2rem;
+ 
+   margin-top: 5rem;
+}
+.btn{
+   padding: 1rem;
+   width: 6rem;
+   background-color: rgb(143, 75, 226);
+}
+.righttext{
+    color: white;
+   
+    background-color:black;
+}
+.backdiv{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(70, 66, 66);
+    margin: 6rem;
+    height: 63vh;
+    border-radius: 28px;
+    padding: 0rem 13rem 0rem 13rem;
+    position: relative;
+    margin-top: 4rem;
+}
+.divBlock1{
+    position: absolute;
+    color: white;
+  
+    margin: 2rem;
+    height:24vh;
+    width: 49vh;
+    margin-top: -1.5rem;
+    margin-left: 7rem;
+    background-color: rgb(41, 40, 40);
+   border-radius: 10px;
+  
+}
+.divBlock2{
+    position: absolute;
+    color: white;
+  
+    margin: 2rem;
+    height:24vh;
+    width: 49vh;
+    margin-top: 8.5rem;
+    margin-left: 11rem;
+    background-color: rgb(41, 40, 40);
+   
+   
+    border-radius: 10px;
+   
+    
+}
+.divBlock3{
+    position: absolute;
+    color: white;
+  
+    margin: 2rem;
+    height:24vh;
+    width: 49vh;
+    margin-top: 18.4rem;
+    margin-left: 7rem;
+    background-color: rgb(41, 40, 40);
+   border-radius: 10px;
+  
+}
+.mainCard{
+    border: 2px solid red;
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-start;
+     background-color: black;
+}
+.card{
+    
+    color: white;
+    align-items: space-between;
+    height:55vh;
+    width: 20rem;
+    margin-top: 2rem;
+       margin-left: 1rem;
+    background-color: rgb(41, 40, 40);
+    border-radius: 10px;
+    
+    font-size: 1rem;
+   
+}
+   
+
+
+
+.card>p{
+    margin-left: 2rem;
+}
+.btnn3{
+    
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    background-color: gray; /* For browsers that do not support gradients */
+    
+
+}
+/* .btnn1{
+    margin-left: -9rem;
+    font-size: 1.5rem;
+    margin-top: 4rem;
+} */.btnn1{
+    margin-top:4.2rem ;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: flex-start;
+    background-color: gray;
+}
+.btnn2{
+    margin-top:2.9rem ;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 2rem;
+    background-color: gray;
+   
+}
+.cardimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    align-items: space-between;
+    height:49vh;
+    width: 18rem;
+    margin-top: -25rem;
+       margin-left: 10rem;
+    background-color: rgb(41, 40, 40);
+    border-radius: 10px;
+   
+    font-size: 1rem;
+    position: absolute;
+   
+}
+.imgg{
+    border: 2px solid red;
+    position: relative;
+    margin-top: 4rem;
+    background-color: black;
+}
+body{
+    background-color: black;
+}
+.cardimg2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    align-items: space-between;
+    height:49vh;
+    width: 18rem;
+    margin-top: -25rem;
+       margin-left: 29rem;
+    background-color: rgb(41, 40, 40);
+    border-radius: 10px;
+  
+    font-size: 1rem;
+    position: absolute;
+     
+}
+.cardimg3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    align-items: space-between;
+    height:49vh;
+    width: 18rem;
+    margin-top: -25rem;
+       margin-left:48rem;
+    background-color: rgb(41, 40, 40);
+    border-radius: 10px;
+  
+    font-size: 1rem;
+    position: absolute;
+     
+}
+.cardimg4{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    align-items: space-between;
+    height:49vh;
+    width: 18rem;
+    margin-top: -46rem;
+       margin-left: 10rem;
+    background-color: rgb(41, 40, 40);
+    border-radius: 10px;
+  
+    font-size: 1rem;
+    position: absolute;
+}
+.cardimg5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    align-items: space-between;
+    height:49vh;
+    width: 18rem;
+    margin-top: -46rem;
+       margin-left: 29rem;
+    background-color: rgb(41, 40, 40);
+    border-radius: 10px;
+  
+    font-size: 1rem;
+    position: absolute;
+     
+}
+.cardimg6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    align-items: space-between;
+    height:49vh;
+    width: 18rem;
+    margin-top: -46rem;
+       margin-left:48rem;
+    background-color: rgb(41, 40, 40);
+    border-radius: 10px;
+  
+    font-size: 1rem;
+    position: absolute;
+     
+}
+.team{
+    
+  border: 2px solid red;
+ height:"80vh"
+}
+.foot{
+    margin-top: 4rem;
+    border: 2px solid yellow;
+    height:50vh;
+    border-radius: 1rem;
+    
+   
+}
+.teams{
+    margin-top: 3rem;
+}
+
